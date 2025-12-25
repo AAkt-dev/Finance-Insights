@@ -2,7 +2,7 @@ using Finance_Insights.WebAPI.Extensions;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//Asra starting the project
 // Add services to the container.
 builder.Services.ConfigureCORS();
 builder.Services.ConfigureIISIntegrations();
