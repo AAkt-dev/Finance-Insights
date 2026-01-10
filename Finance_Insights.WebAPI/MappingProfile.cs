@@ -8,9 +8,9 @@ namespace Finance_Insights.WebAPI
     {
         public MappingProfile()
         {
-            CreateMap<AccountForUpdateDto, Account>();
-            CreateMap<Account, AccountForUpdateDto>();
+            CreateMap<AccountForUpdateDto, Account>().ReverseMap();
             CreateMap<AccountForCreationDto, Account>();
+            CreateMap<Category, CategoryDto>().ReverseMap();
         }
     }
 }

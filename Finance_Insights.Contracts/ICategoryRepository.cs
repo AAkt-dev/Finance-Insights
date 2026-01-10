@@ -6,7 +6,7 @@ namespace Finance_Insights.Contracts
     {
         IEnumerable<Category> GetAllCategoryOfAccount(Guid accountId,bool trackChanges);
 
-        Category GetCategory(Guid accountId,Guid CategoryId,bool trackChanges);
+        Category GetCategory(Guid CategoryId,bool trackChanges);
 
         void AddCategory(Category category);
         void DeleteCategory(Category category);

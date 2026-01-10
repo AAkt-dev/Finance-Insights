@@ -14,6 +14,6 @@ namespace Finance_Insights.Repository
         public void AddCategory(Category category)=>Create(category);
         public void DeleteCategory(Category category)=>Delete(category);
         public IEnumerable<Category> GetAllCategoryOfAccount(Guid accountId, bool trackChanges)=>FindByCondition(c=>c.AccountId==accountId,trackChanges);
-        public Category GetCategory(Guid accountId, Guid CategoryId, bool trackChanges)=>FindByCondition(c=>c.AccountId ==accountId && c.CategoryId==CategoryId,trackChanges).SingleOrDefault();
+        public Category GetCategory(Guid CategoryId, bool trackChanges)=>FindByCondition(c=>c.CategoryId==CategoryId,trackChanges).SingleOrDefault();
     }
 }
