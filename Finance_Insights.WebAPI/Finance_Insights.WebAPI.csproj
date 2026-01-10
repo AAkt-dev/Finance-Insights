@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.22">
       <PrivateAssets>all</PrivateAssets>
@@ -20,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Finance_Insights.LoggerService\Finance_Insights.LoggerService.csproj" />
+    <ProjectReference Include="..\Finance_Insights.Presentation\Finance_Insights.Presentation.csproj" />
     <ProjectReference Include="..\Finance_Insights.Repository\Finance_Insights.Repository.csproj" />
     <ProjectReference Include="..\Finance_Insights.Service\Finance_Insights.Service.csproj" />
     <ProjectReference Include="..\Finance_Insights.Service_Contracts\Finance_Insights.Service_Contracts.csproj" />
