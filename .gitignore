@@ -363,4 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 Finance_Insights.WebAPI/Migrations
-Finance_Insights.WebAPI/appsettings
+Finance_Insights.WebAPI/appsettings.json
