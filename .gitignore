@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+Finance_Insights.WebAPI/Migrations
+Finance_Insights.WebAPI/appsettings
