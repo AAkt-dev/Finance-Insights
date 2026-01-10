@@ -3,5 +3,7 @@
     public interface IServiceManager
     {
         IAccountService accountService { get; }
+
+        ICategoryService categoryService { get; }
     }
 }

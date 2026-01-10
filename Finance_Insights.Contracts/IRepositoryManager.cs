@@ -9,6 +9,7 @@ namespace Finance_Insights.Contracts
     public interface IRepositoryManager
     {
         IAccountRepository accountRepository { get; }
+        ICategoryRepository categoryRepository { get; }
         void Save();
     }
 }
